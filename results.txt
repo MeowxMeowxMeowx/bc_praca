@@ -1,0 +1,19 @@
+Logistic Regression default + random sample
+{8: 0.1692, 16: 0.1932, 32: 0.1976, 64: 0.2264, 126: 0.2756}
+
+SVC non optimized + sentence-transformers/paraphrase-multilingual-mpnet-base-v2 + random sample
+{8: 0.2812, 16: 0.3004, 32: 0.316, 64: 0.3328}
+
+SVC non optimized + sentence-transformers/paraphrase-multilingual-mpnet-base-v2 + sorted by num of chars + deleted backslashes
+{8: 0.2524, 16: 0.2716, 32: 0.2664, 64: 0.2728}
+
+SVC non optimized + kinit/slovakbert-sts-stsb + lowercase + random sample
+{8: 0.284, 16: 0.318, 32: 0.3468}
+
+SVC non optimized + kinit/slovakbert-sts-stsb + lowercase + no stop words + random sample
+
+
+SVC non optimized + kinit/slovakbert-sts-stsb + lowercase + no stop words + sorted by num words
+
+
+
